@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fibonacci of X is Y</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="main-wrapper">
+          <div class="container">
+            <div class="row mt-5">
+              <div class="col">
+                <h3>Fibonacci Calculator</h3>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <div class="calc-block">
+                  <p>The Fibonacci Of</p>
+                  <input id="input" type="number" name="input" max="50">
+                  <button id="button">Is</button>
+                  <p id="output" style="display:none"></p>
+                  <p id="error" style="display:none"></p>
+                </div>
+                <div id="lengthErr" style="visibility:hidden">
+                  <p>Can't be larger than 50</p>
+                </div>
+                
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col results">
+                <div class="results-header">Results</div>
+              </div>
+            </div>
+           
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col mt-4">
+                <div class="results-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>

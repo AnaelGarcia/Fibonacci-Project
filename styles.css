@@ -1,0 +1,34 @@
+
+  .calc-block {
+    display: flex;
+    align-items: center;
+  }
+  
+  h3 {
+    width: 672px;
+    height: 79px;
+    font-size: 70px;
+    line-height: 79px;
+  
+    color: #373A3C;
+  }
+  
+  .calc-block p {
+    margin: 0;
+    padding: 0;
+    width: 189px;
+    height: 24px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #373A3C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  #input {
+    width:120px;
+    height: 50px;
+  
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+  }
